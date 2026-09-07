@@ -1,80 +1,80 @@
-\# Day 4 - Linux Fundamentals
+# Day 4 - Linux Fundamentals
 
 
 
-\## What is Linux?
+## What is Linux?
 
 Linux is an open-source operating system widely used in servers and cloud computing.
 
 
 
-\## Why Linux is important in Cloud?
+## Why Linux is important in Cloud?
 
-\- Most cloud servers run Linux
+- Most cloud servers run Linux
 
-\- Lightweight and efficient
+- Lightweight and efficient
 
-\- Highly customizable
+- Highly customizable
 
-\- Strong security
+- Strong security
 
-\- Supports automation
-
-
-
-\## Basic Linux Commands
+- Supports automation
 
 
 
-\### pwd
+## Basic Linux Commands
+
+
+
+### pwd
 
 Shows the current working directory.
 
 
 
-\### ls
+### ls
 
 Lists files and directories.
 
 
 
-\### cd
+### cd
 
 Changes the current directory.
 
 
 
-\### mkdir
+### mkdir
 
 Creates a new directory.
 
 
 
-\### touch
+### touch
 
 Creates an empty file.
 
 
 
-\### cp
+### cp
 
 Copies files or directories.
 
 
 
-\### mv
+### mv
 
 Moves or renames files.
 
 
 
-\### rm
+### rm
 
 Deletes files.
 
 
 
-\### cat
+### cat
 
 Displays file contents.
 

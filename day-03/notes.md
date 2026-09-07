@@ -1,8 +1,8 @@
-\# Day 3 — Networking Fundamentals: IP Address and DNS
+# Day 3 — Networking Fundamentals: IP Address and DNS
 
 
 
-\## What is an IP Address?
+## What is an IP Address?
 
 
 
@@ -18,7 +18,7 @@ Example IPv4 address:
 
 
 
-\## What is a Domain Name?
+## What is a Domain Name?
 
 
 
@@ -28,15 +28,15 @@ A domain name is a human-readable name used to access a website.
 
 Examples:
 
-\- google.com
+- google.com
 
-\- github.com
+- github.com
 
-\- amazon.com
+- amazon.com
 
 
 
-\## What is DNS?
+## What is DNS?
 
 
 
@@ -48,7 +48,7 @@ DNS translates domain names into IP addresses so that computers can locate the c
 
 
 
-\## Domain Name vs IP Address
+## Domain Name vs IP Address
 
 
 
@@ -110,11 +110,11 @@ Internet
 
 
 
-\## Practical Commands Used
+## Practical Commands Used
 
 
 
-\### DNS Lookup
+### DNS Lookup
 
 
 
@@ -126,7 +126,7 @@ This command performs a DNS lookup and returns DNS information for the domain.
 
 
 
-\### Network Configuration
+### Network Configuration
 
 
 
@@ -138,7 +138,7 @@ This command displays network configuration information on Windows.
 
 
 
-\## My Understanding
+## My Understanding
 
 
 

@@ -1,8 +1,8 @@
-\# Day 5 - Linux Users and Permissions
+# Day 5 - Linux Users and Permissions
 
 
 
-\## Linux Users
+## Linux Users
 
 Linux is a multi-user operating system.
 
@@ -10,19 +10,19 @@ Linux is a multi-user operating system.
 
 Common user types:
 
-\- Root user
+- Root user
 
-\- Regular user
+- Regular user
 
 
 
-\## Root User
+## Root User
 
 The root user has complete administrative access to the system.
 
 
 
-\## File Permissions
+## File Permissions
 
 
 
@@ -30,25 +30,25 @@ Linux permissions are divided into:
 
 
 
-\- Read (r)
+- Read (r)
 
-\- Write (w)
+- Write (w)
 
-\- Execute (x)
+- Execute (x)
 
 
 
 Permissions apply to:
 
-\- Owner
+- Owner
 
-\- Group
+- Group
 
-\- Others
+- Others
 
 
 
-\## chmod
+## chmod
 
 Used to change file permissions.
 
@@ -62,15 +62,15 @@ chmod 755 file.txt
 
 
 
-\## Permission Numbers
+## Permission Numbers
 
 
 
-\- 4 = Read
+- 4 = Read
 
-\- 2 = Write
+- 2 = Write
 
-\- 1 = Execute
+- 1 = Execute
 
 
 
@@ -84,7 +84,7 @@ Example:
 
 
 
-\## sudo
+## sudo
 
 Allows a regular user to execute commands with administrative privileges.
 
@@ -98,7 +98,7 @@ sudo apt update
 
 
 
-\## chown
+## chown
 
 Changes the ownership of a file.
 

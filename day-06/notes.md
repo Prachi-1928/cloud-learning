@@ -1,8 +1,8 @@
-\# Day 6 - Introduction to Cloud Computing
+# Day 6 - Introduction to Cloud Computing
 
 
 
-\## What is Cloud Computing?
+## What is Cloud Computing?
 
 
 
@@ -14,39 +14,39 @@ Instead of owning physical infrastructure, companies can rent resources from clo
 
 
 
-\## Benefits of Cloud Computing
+## Benefits of Cloud Computing
 
 
 
-\- Scalability
+- Scalability
 
-\- Flexibility
+- Flexibility
 
-\- Cost efficiency
+- Cost efficiency
 
-\- High availability
+- High availability
 
-\- Global access
+- Global access
 
-\- Pay-as-you-go pricing
-
-
-
-\## Cloud Service Models
+- Pay-as-you-go pricing
 
 
 
-\### IaaS - Infrastructure as a Service
+## Cloud Service Models
+
+
+
+### IaaS - Infrastructure as a Service
 
 
 
 Provides virtual infrastructure such as:
 
-\- Virtual machines
+- Virtual machines
 
-\- Storage
+- Storage
 
-\- Networking
+- Networking
 
 
 
@@ -56,7 +56,7 @@ AWS EC2
 
 
 
-\### PaaS - Platform as a Service
+### PaaS - Platform as a Service
 
 
 
@@ -70,7 +70,7 @@ Google App Engine
 
 
 
-\### SaaS - Software as a Service
+### SaaS - Software as a Service
 
 
 
@@ -80,29 +80,29 @@ Provides software through the internet.
 
 Examples:
 
-\- Gmail
+- Gmail
 
-\- Google Docs
-
-
-
-\## Cloud Deployment Models
+- Google Docs
 
 
 
-\### Public Cloud
+## Cloud Deployment Models
+
+
+
+### Public Cloud
 
 Infrastructure provided by third-party cloud providers.
 
 
 
-\### Private Cloud
+### Private Cloud
 
 Infrastructure dedicated to a single organization.
 
 
 
-\### Hybrid Cloud
+### Hybrid Cloud
 
 Combination of public and private cloud.
 
