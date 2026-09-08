@@ -12,21 +12,21 @@ AWS (Amazon Web Services) is a cloud computing platform provided by Amazon.
 
 AWS provides services such as:
 
-\- Compute
+- Compute
 
-\- Storage
+- Storage
 
-\- Databases
+- Databases
 
-\- Networking
+- Networking
 
-\- Security
+- Security
 
-\- Analytics
+- Analytics
 
 
 
-\## Why AWS?
+## Why AWS?
 
 
 
@@ -36,21 +36,21 @@ AWS allows organizations to use cloud resources without managing physical infras
 
 Benefits include:
 
-\- Pay-as-you-go pricing
+- Pay-as-you-go pricing
 
-\- Scalability
+- Scalability
 
-\- High availability
+- High availability
 
-\- Global infrastructure
+- Global infrastructure
 
-\- Security
+- Security
 
-\- Flexibility
+- Flexibility
 
 
 
-\## AWS Global Infrastructure
+## AWS Global Infrastructure
 
 
 
@@ -62,7 +62,7 @@ The main components are:
 
 
 
-\### Regions
+### Regions
 
 
 
@@ -72,13 +72,13 @@ A Region is a physical geographical location where AWS has data centers.
 
 Examples:
 
-\- Mumbai
+- Mumbai
 
-\- Singapore
+- Singapore
 
-\- Frankfurt
+- Frankfurt
 
-\- Virginia
+- Virginia
 
 
 
@@ -86,7 +86,7 @@ Each Region contains multiple Availability Zones.
 
 
 
-\### Availability Zones (AZ)
+### Availability Zones (AZ)
 
 
 
@@ -96,11 +96,11 @@ An Availability Zone is one or more data centers within an AWS Region.
 
 Availability Zones are designed to provide:
 
-\- High availability
+- High availability
 
-\- Fault tolerance
+- Fault tolerance
 
-\- Disaster recovery
+- Disaster recovery
 
 
 
@@ -132,7 +132,7 @@ They are commonly used by services such as Amazon CloudFront.
 
 
 
-\## Important Concept
+## Important Concept
 
 
 
