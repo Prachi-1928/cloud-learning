@@ -1,8 +1,8 @@
-\# Day 7 - AWS Introduction and Global Infrastructure
+# Day 7 - AWS Introduction and Global Infrastructure
 
 
 
-\## What is AWS?
+## What is AWS?
 
 
 
