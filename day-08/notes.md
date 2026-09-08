@@ -48,7 +48,7 @@ Logging into AWS using a username and password.
 
 
 
-Authorization means **determining what actions a user is allowed to perform\*\*.
+Authorization means **determining what actions a user is allowed to perform**.
 
 
 
