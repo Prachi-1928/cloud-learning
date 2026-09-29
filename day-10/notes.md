@@ -1,8 +1,8 @@
-\# Day 10 - AWS EC2: Launching Your First Instance
+# Day 10 - AWS EC2: Launching Your First Instance
 
 
 
-\## What is EC2?
+## What is EC2?
 
 
 
@@ -18,11 +18,11 @@ Instead of buying and maintaining a physical server, we can create a virtual ser
 
 
 
-\---
+---
 
 
 
-\## What is an EC2 Instance?
+## What is an EC2 Instance?
 
 
 
@@ -34,23 +34,23 @@ We can use an EC2 instance to:
 
 
 
-\- Run applications
+- Run applications
 
-\- Host websites
+- Host websites
 
-\- Run backend servers
+- Run backend servers
 
-\- Store and process data
+- Store and process data
 
-\- Perform computing tasks
-
-
-
-\---
+- Perform computing tasks
 
 
 
-\## Why is EC2 called Elastic?
+---
+
+
+
+## Why is EC2 called Elastic?
 
 
 
@@ -70,15 +70,15 @@ If we need fewer resources, we can use a smaller instance.
 
 
 
-\---
+---
 
 
 
-\## Important EC2 Concepts
+## Important EC2 Concepts
 
 
 
-\### 1. AMI
+### 1. AMI
 
 
 
@@ -102,11 +102,11 @@ Ubuntu can be selected as an operating system for an EC2 instance.
 
 
 
-\---
+---
 
 
 
-\### 2. Instance Type
+### 2. Instance Type
 
 
 
@@ -118,11 +118,11 @@ It determines things such as:
 
 
 
-\- CPU
+- CPU
 
-\- Memory
+- Memory
 
-\- Network performance
+- Network performance
 
 
 
@@ -130,11 +130,11 @@ Different instance types are designed for different workloads.
 
 
 
-\---
+---
 
 
 
-\### 3. Key Pair
+### 3. Key Pair
 
 
 
@@ -146,9 +146,9 @@ It contains:
 
 
 
-\- Public key
+- Public key
 
-\- Private key
+- Private key
 
 
 
@@ -160,11 +160,11 @@ Never share the private key with anyone.
 
 
 
-\---
+---
 
 
 
-\### 4. Security Group
+### 4. Security Group
 
 
 
@@ -192,11 +192,11 @@ HTTPS uses port 443.
 
 
 
-\---
+---
 
 
 
-\### 5. Public IP Address
+### 5. Public IP Address
 
 
 
@@ -208,11 +208,11 @@ A public IP allows the instance to communicate over the internet.
 
 
 
-\---
+---
 
 
 
-\### 6. Private IP Address
+### 6. Private IP Address
 
 
 
@@ -224,11 +224,11 @@ It is not directly accessible from the public internet.
 
 
 
-\---
+---
 
 
 
-\## Launching an EC2 Instance
+## Launching an EC2 Instance
 
 
 
@@ -236,33 +236,33 @@ Basic steps:
 
 
 
-1\. Open the AWS Management Console.
+1. Open the AWS Management Console.
 
-2\. Open the EC2 service.
+2. Open the EC2 service.
 
-3\. Choose the required AWS Region.
+3. Choose the required AWS Region.
 
-4\. Click Launch Instance.
+4. Click Launch Instance.
 
-5\. Give the instance a name.
+5. Give the instance a name.
 
-6\. Select an AMI.
+6. Select an AMI.
 
-7\. Select an instance type.
+7. Select an instance type.
 
-8\. Create or select a key pair.
+8. Create or select a key pair.
 
-9\. Configure the security group.
+9. Configure the security group.
 
-10\. Launch the instance.
-
-
-
-\---
+10. Launch the instance.
 
 
 
-\## Connecting to an EC2 Instance
+---
+
+
+
+## Connecting to an EC2 Instance
 
 
 
@@ -270,15 +270,15 @@ After launching the instance:
 
 
 
-1\. Open the EC2 console.
+1. Open the EC2 console.
 
-2\. Select the running instance.
+2. Select the running instance.
 
-3\. Click Connect.
+3. Click Connect.
 
-4\. Choose the appropriate connection method.
+4. Choose the appropriate connection method.
 
-5\. Follow the connection instructions.
+5. Follow the connection instructions.
 
 
 
@@ -286,11 +286,11 @@ For a Linux EC2 instance, SSH is commonly used.
 
 
 
-\---
+---
 
 
 
-\## What is SSH?
+## What is SSH?
 
 
 
@@ -310,11 +310,11 @@ A developer can use SSH to connect from their local computer to a Linux EC2 inst
 
 
 
-\---
+---
 
 
 
-\## SSH Port
+## SSH Port
 
 
 
@@ -326,11 +326,11 @@ The EC2 security group must allow SSH traffic for the connection to work.
 
 
 
-\---
+---
 
 
 
-\## EC2 Lifecycle
+## EC2 Lifecycle
 
 
 
@@ -342,27 +342,27 @@ Common states include:
 
 
 
-\- Pending
+- Pending
 
-\- Running
+- Running
 
-\- Stopping
+- Stopping
 
-\- Stopped
+- Stopped
 
-\- Terminated
-
-
-
-\---
+- Terminated
 
 
 
-\## Stop vs Terminate
+---
 
 
 
-\### Stop
+## Stop vs Terminate
+
+
+
+### Stop
 
 
 
@@ -370,7 +370,7 @@ Stopping an instance shuts down the instance but keeps it available to start aga
 
 
 
-\### Terminate
+### Terminate
 
 
 
@@ -382,11 +382,11 @@ Therefore, terminate should be used carefully.
 
 
 
-\---
+---
 
 
 
-\## Day 10 Hands-On Task
+## Day 10 Hands-On Task
 
 
 
@@ -398,13 +398,13 @@ I selected:
 
 
 
-\- An AMI
+- An AMI
 
-\- An instance type
+- An instance type
 
-\- A key pair
+- A key pair
 
-\- A security group
+- A security group
 
 
 
@@ -416,11 +416,11 @@ I connected to the Linux EC2 instance using SSH.
 
 
 
-\---
+---
 
 
 
-\## What I Learned
+## What I Learned
 
 
 
@@ -428,35 +428,34 @@ Today I learned:
 
 
 
-\- What EC2 is
+- What EC2 is
 
-\- What an EC2 instance is
+- What an EC2 instance is
 
-\- What an AMI is
+- What an AMI is
 
-\- What an instance type is
+- What an instance type is
 
-\- What a key pair is
+- What a key pair is
+- What a security group is
 
-\- What a security group is
+- What a public IP is
 
-\- What a public IP is
+- What a private IP is
 
-\- What a private IP is
+- What SSH is
 
-\- What SSH is
+- Why SSH uses port 22
 
-\- Why SSH uses port 22
-
-\- Difference between stopping and terminating an EC2 instance
-
-
-
-\---
+- Difference between stopping and terminating an EC2 instance
 
 
 
-\## Important Security Rule
+---
+
+
+
+## Important Security Rule
 
 
 
